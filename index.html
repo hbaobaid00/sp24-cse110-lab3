@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
-
+    <link rel="icon" href="strawhat.jpg" type="strawhat/jpg">
   </head>
   <body>
     <main>
-      <h1>
+      <h1 id="title">
         CSE 110 - Second Meeting 
       </h1>
-      <div>
-        <h2>
+      <hr>
+      <section>
+      <h2>
+        Navigation
+      </h2>
+      <nav>
+        <ul>
+          <li><a href="#meeting-details">Go To Meeting Details</a></li>
+          <li><a href="#attendance">Go To Attendance</a></li>
+          <li><a href="#last-meeting">Go To Last Meeting</a></li>
+          <li><a href="#agenda">Go To Agenda</a></li>
+          <li><a href="#summary">Go To Summary</a></li>
+          <li><a href="#comments-questions-concerns">Go To Comments, Questions, Concerns</a></li>
+        </ul>
+      </nav>
+      </section>
+      <hr>
+      
+      <section>
+        <h2 id="meeting-details">
           Meeting Details
         </h2>
-        <div>
-          <b> Location: </b> Price Center <br>
-          <b> Date: </b> 04.12.2024 <br>
-          <b> Time: </b> 7:00 pm <br>
-        </div>
         
-    </div>
-
-      <h2>
+        <div>
+          <i><b> Location: </b></i> Price Center <br>
+          <i><b> Date: </b></i> 04.12.2024 <br>
+          <i><b> Time: </b></i> 7:00 pm <br>
+        </div>
+      </section>
+    <hr>
+    <Section>
+      <h2 id="attendance">
         Attendance 
       </h2>
-
       <div>
         <details>
           <summary>
@@ -45,25 +65,31 @@
           </ul>
         </details>
       </div>
-
-      <h2>
+      </Section>
+      <hr>
+      <Section>
+      <h2 id="last-meeting">
         Last Meeting
       </h2>
 
-      <paragraph>
-        In our last meeting, everyone was able to introduce themselves by saying their year,
+      <p>
+        <span>In our last meeting, everyone was able to introduce themselves by saying their year,
         and their experience in CS. We shared each others schedules to determine a fixed weekly 
         time that we can meet. We settled on 7 pm after our CSE 110 lecture. We didn't have enough 
         time to share an interesting fact which we will do today. <br> <br>
         We also did a group bonding activity where we completed a group scavenger hunt around campus
         and grabbed food from price center. We cooperated really well during the scavenger and completed it within
         30 minutes. After we had lunch, we went to UTC and watched <i> Dune 2 </i> at the AMC movie theater.
-        We all enjoyed the movie very much, so our bonding experience was great. 
-      </paragraph>
+        We all enjoyed the movie very much, so our bonding experience was great.
+        </span> 
+      </p>
       <div>
-        <img src="data:image/jpeg;base64,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" alt="">
+        <img src="dune2.jpg" width="480">
       </div>
-      <h2>
+      </Section>
+      <hr>
+      <Section>
+      <h2 id="agenda">
         Agenda
       </h2>
       
@@ -71,31 +97,65 @@
         <li> Each person shares one interesting fun fact about themselves </li>
         <li> Determine official roles for each member</li>
         <li> Start planning out ideas for the project
-          <ul> - Plan out the UI </ul>
-          <ul> - Determine the goal of this project </ul>
-          <ul> - Figure out what tools will be required </ul>
-          <ul> - Layout expectations for each role/person </ul>
+          <ul>
+            <li>Plan out the UI </li>
+            <li> Determine the goal of this project </li>
+            <li>Figure out what tools will be required </li>
+            <li>Layout expectations for each role/person </li>
+          </ul>
         </li>
         <li> Conclude by sharing our ideas and thoughts</li>
       </ol>
-      <h2>
+      </Section>
+      <hr>
+      <Section>
+      <h2 id="summary">
         Summary of Today's Meeting
       </h2>
-        In today's meeting, we finally were able to talk about 
-        <!-- <video src="https://drive.google.com/file/d/1b0dwPneWRFuFRRnOcyY9Hi_95T9GHaKT/view?usp=sharing"></video> --> 
-        <!-- <video width="640" height="360" controls>
-          <source src="IMG_0.MOV">
-          Your browser does not support the video tag.
-        </video> -->
+        <p> In today's meeting, we finally were able to talk about </p>
 
         <video src="IMG_0.MOV" controls> </video>
-      <h2>
+        <audio src="IMG_0.MOV" controls></audio>
+        <br>
+        <label>Have you watched One Piece before?</label>
+        <select>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </Section>
+        <hr>
+      <Section>
+      <h2 id="comments-questions-concerns">
         Comments, Questions, or Concerns
       </h2>
-       <textarea name="message" rows="4" cols="50" placeholder="Type your feedback here..."></textarea>
-        <button>
-          Submit
-        </button> 
+  
+      <form>
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="emotion">How did you enjoy the meeting?</label>
+          <input list="feelings" id="emotion" name="emotion">
+          <datalist id="feelings">
+            <option value="I hated it!">
+            <option value="We didn't get to cover as much as I hoped for">
+            <option value="It was alright">
+            <option value="It was great">
+            <option value="My favorite meeting so far!">
+          </datalist>
+          <p> Write below any feedback you may have</p>
+           <textarea name="message" rows="4" cols="50" placeholder="Type your feedback here..."></textarea>
+          <button>
+              Submit
+          </button> 
+        </fieldset>
+      </form>
+      </section>
     </main>
+    <footer>
+      <h3>References</h3>
+      <p>&copy; <em>@jelllysenpaaai</em> from TikTok <br>
+      &copy; <i>Dune 2</i> image from <em>wallpapersden.com </em> <br>
+      Note-taker for today: <strong>Hisham Baobaid</strong> </p>
+    </footer>
+    <a href="#title">Back to the Top</a>
   </body>
 </html>
