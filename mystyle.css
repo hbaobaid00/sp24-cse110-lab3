@@ -26,3 +26,25 @@ footer{
 button{
     color: color(sRGB 0 0.5 1 / 100%);
 }
+
+.image {
+    width: 90%; 
+    max-width: 400px; 
+    padding-left: 500px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 36px; 
+    border: solid; 
+    border-color: rgb(136, 56, 234);
+    border-style: dashed;
+    border-width: 0.4em;
+    border-radius: 50%;
+    height: 40px; 
+    padding: 3%;
+    text-align: center;
+    margin: 35px
+  }
+  
