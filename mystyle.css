@@ -47,4 +47,10 @@ button{
     text-align: center;
     margin: 35px;
   }
+
+.text{
+    color: rgb(177, 9, 160);
+    text-decoration: underline;
+    text-align: center;
+}
   
