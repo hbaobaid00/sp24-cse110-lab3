@@ -1,3 +1,7 @@
+body{
+    background-color: lightblue;
+}
+
 h1 {
   color: navy;
 }
@@ -9,9 +13,11 @@ h2{
 form{
     color: hsla(225, 93%, 47%, 1);
 }
+
 footer{
     color: #d410bd;
 }
+
 button{
     color: color(sRGB 0 0.5 1 / 100%);
 }
