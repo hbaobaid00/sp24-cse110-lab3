@@ -21,6 +21,7 @@ form{
 footer{
     color: #d410bd; 
     color: var(--footer-color);
+    display: inline-block;
 }
 
 button{
@@ -52,5 +53,6 @@ button{
     color: rgb(177, 9, 160);
     text-decoration: underline;
     text-align: center;
+    display: block;
 }
   
