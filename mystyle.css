@@ -14,8 +14,13 @@ form{
     color: hsla(225, 93%, 47%, 1);
 }
 
+:root{
+    --footer-color: #d410bd;
+}
+
 footer{
-    color: #d410bd;
+    color: #d410bd; 
+    color: var(--footer-color);
 }
 
 button{
