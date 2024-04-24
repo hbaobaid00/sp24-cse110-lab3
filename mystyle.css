@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Crimson Text";
+    src: url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+}
+
 body{
     background-color: lightblue; /*background color of page is now a different color*/
     min-width: 70%;
+    font-family: "Crimson Text", cursive;
 }
 
 h1 {
