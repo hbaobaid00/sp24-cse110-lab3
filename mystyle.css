@@ -25,8 +25,13 @@ footer{
     display: inline-block;
 }
 
-button{
+button:hover{
     color: color(sRGB 0 0.5 1 / 100%);
+}
+
+button:active{
+    color: red;
+    background-color: black;
 }
 
 .image {
