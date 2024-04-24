@@ -173,6 +173,6 @@ button:active{
   
   /* :has() */
   div:has(.item3) {
-    border: 2px solid orange;
+    border: 2px solid black;
   }
   
