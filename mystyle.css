@@ -70,4 +70,29 @@ button:active{
     display: block;
     position: static;
 }
+.list {
+    display: flex;
+    justify-content: space-around; /* Flex items are evenly distributed with equal space around them */
+    align-items: center; /* Flex items are centered vertically */
+    flex-direction: column; /* Flex items are stacked vertically */
+  }
+.item{
+    width: 175px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+}
+
+.list2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /
+    grid-gap: 10px; 
+  }
   
+  .item2 {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
