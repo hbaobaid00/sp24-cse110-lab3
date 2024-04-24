@@ -91,8 +91,29 @@ button:active{
     grid-gap: 10px; 
   }
   
-  .item2 {
+.item2 {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     padding: 10px;
   }
+
+  /*for small screens like phone*/
+@media only screen and (max-width: 480px) {
+    .image {
+      width: 95%;
+    }
+}
+
+/*for medium screens like tablets*/
+@media only screen and (max-width: 768px) {
+    .image {
+      width: 90%;
+    } 
+}
+
+  /*for larger screens like desktops */
+@media only screen and (min-width: 1200px) {
+    .image {
+      width: 70%;
+    }
+} 
