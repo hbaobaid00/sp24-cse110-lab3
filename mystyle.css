@@ -1,10 +1,10 @@
 body{
-    background-color: lightblue;
+    background-color: lightblue; /*background color of page is now a different color*/
     min-width: 70%;
 }
 
 h1 {
-  color: navy;
+  color: navy; /*the title of my page is now a different color*/
 }
 
 h2{
@@ -12,29 +12,29 @@ h2{
 }
 
 form{
-    color: hsla(225, 93%, 47%, 1);
+    color: hsla(225, 93%, 47%, 1); /*text of the form is now different color*/
 }
 
 :root{
-    --footer-color: #d410bd;
+    --footer-color: #d410bd;  /*creating variable*/
 }
 
 footer{
-    color: #d410bd; 
-    color: var(--footer-color);
+    color: #d410bd; /*variable fallback*/
+    color: var(--footer-color); /*using variable*/
     display: inline-block;
 }
 
 button:hover{
-    color: color(sRGB 0 0.5 1 / 100%);
+    color: color(sRGB 0 0.5 1 / 100%); /*color of text in button changes to blue when hovered over*/
 }
 
 button:active{
     color: red;
-    background-color: black;
+    background-color: black; /*color of text of button turns red and background of button turns black when you click down on it*/
 }
 
-.image {
+.image { /*adjusting the width and position of the image*/
     width: 90%; 
     max-width: 400px;
     padding-left: 500px; 
@@ -43,7 +43,7 @@ button:active{
     position: relative;
 }
 
-.title {
+.title {  /* adding style to the title of the page*/
     font-size: 36px; 
     border: solid; 
     border-color: rgb(136, 56, 234);
@@ -57,7 +57,7 @@ button:active{
     margin: 35px;
   }
 
-.text{
+.text{ /*styling the paragraph's text of my page*/
     color: rgb(177, 9, 160);
     text-decoration: underline;
     text-align: center;
