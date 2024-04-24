@@ -117,3 +117,62 @@ button:active{
       width: 70%;
     }
 } 
+#container {
+    margin: 20px;
+    background-color: lightsalmon;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Universal Selector (*) */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selector (element) */
+  p {
+    font-size: 16px;
+  }
+  
+  /* Attribute Selector (e.g., [attribute=foo]) */
+  [data-type="special"] {
+    background-color: yellow;
+  }
+  
+  
+  /* Selector List (element, element) */
+  p, ol {
+    margin-bottom: 10px;
+  }
+  
+  /* Combinators */
+  /* Descendant Combinator (element element) */
+  #container p {
+    font-style: italic;
+  }
+  
+  /* Child Combinator (element > element) */
+  #container > .item3 {
+    font-weight: bold;
+  }
+  
+  /* General sibling combinator (element ~ element) */
+  p ~ .item3 {
+    color: purple;
+  }
+  
+  /* Adjacent sibling combinator (element + element) */
+  .item3 + .item3 {
+    margin-top: 30px;
+  }
+  
+  /* Combining Two Selectors (element.class) */
+  div.item3 {
+    border-radius: 5px;
+  }
+  
+  /* :has() */
+  div:has(.item3) {
+    border: 2px solid orange;
+  }
+  
